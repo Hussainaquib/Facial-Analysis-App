@@ -1,5 +1,4 @@
 numpy
 deepface
 streamlit
-cv2
-Image
+opencv-python==4.8.0.76
