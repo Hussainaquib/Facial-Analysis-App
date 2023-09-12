@@ -1,0 +1,5 @@
+numpy
+deepface
+streamlit
+cv2
+Image
