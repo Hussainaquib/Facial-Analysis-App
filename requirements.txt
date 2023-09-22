@@ -2,3 +2,4 @@ numpy
 deepface
 streamlit
 opencv-python-headless
+libgl1
