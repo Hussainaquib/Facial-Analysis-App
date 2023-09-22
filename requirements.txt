@@ -2,4 +2,3 @@ numpy
 deepface
 streamlit
 opencv-python-headless
-opencv-contrib-python
