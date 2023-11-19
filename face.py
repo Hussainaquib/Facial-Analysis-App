@@ -31,7 +31,7 @@ if uploaded_image is not None:
             tasks.append('emotion')
 
         # Resize the image to 224x224 pixels and convert to RGB
-        img_pil_resized = image.resize((224, 224), Image.ANTIALIAS)
+        img_pil_resized = image.resize((224, 224), Image.LANCZOS)
         img_pil_resized = img_pil_resized.convert("RGB")
 
         img_cv = np.array(img_pil_resized)
